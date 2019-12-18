@@ -15,6 +15,7 @@
 		044CBC3523AA8AC700F106E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CBC3323AA8AC700F106E8 /* LaunchScreen.storyboard */; };
 		044CBC4023AA8AC700F106E8 /* Guess_the_FlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CBC3F23AA8AC700F106E8 /* Guess_the_FlagTests.swift */; };
 		044CBC4B23AA8AC700F106E8 /* Guess_the_FlagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CBC4A23AA8AC700F106E8 /* Guess_the_FlagUITests.swift */; };
+		044CBC5923AAA5A000F106E8 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CBC5823AAA5A000F106E8 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		044CBC4623AA8AC700F106E8 /* Guess the FlagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess the FlagUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044CBC4A23AA8AC700F106E8 /* Guess_the_FlagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_the_FlagUITests.swift; sourceTree = "<group>"; };
 		044CBC4C23AA8AC700F106E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044CBC5823AAA5A000F106E8 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				044CBC2823AA8AC500F106E8 /* AppDelegate.swift */,
 				044CBC2A23AA8AC500F106E8 /* SceneDelegate.swift */,
+				044CBC5823AAA5A000F106E8 /* GameState.swift */,
 				044CBC2C23AA8AC500F106E8 /* ContentView.swift */,
 				044CBC2E23AA8AC700F106E8 /* Assets.xcassets */,
 				044CBC3323AA8AC700F106E8 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044CBC2923AA8AC500F106E8 /* AppDelegate.swift in Sources */,
+				044CBC5923AAA5A000F106E8 /* GameState.swift in Sources */,
 				044CBC2B23AA8AC500F106E8 /* SceneDelegate.swift in Sources */,
 				044CBC2D23AA8AC500F106E8 /* ContentView.swift in Sources */,
 			);

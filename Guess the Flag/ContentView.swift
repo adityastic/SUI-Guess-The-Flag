@@ -8,13 +8,6 @@
 
 import SwiftUI
 
-struct GameState{
-    var currentScore = 0
-    var wasLastCorrect = false
-    var showingScore = false
-    var scoreTitle = ""
-}
-
 struct ContentView: View {
     @State private var currentGame = GameState()
     
