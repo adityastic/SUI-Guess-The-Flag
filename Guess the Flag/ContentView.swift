@@ -57,7 +57,7 @@ struct ContentView: View {
 
     func flagTapped(_ number: Int) {
         if number == selectedCountry {
-            currentGame.scoreTitle = "That was the flag for  \(countries[number])"
+            currentGame.scoreTitle = "That was the flag for \(countries[number])"
             currentGame.currentScore += 1
             currentGame.wasLastCorrect = true
         } else {
